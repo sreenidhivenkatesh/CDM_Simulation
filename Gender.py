@@ -2,11 +2,12 @@
 # coding: utf-8
 # In[39]:
 
+#importing necessary packages
 
-import faker 
 import numpy as np
 import pandas as pd
-import random 
+import random
+from faker import Faker
 
 
 # In[29]:
@@ -15,9 +16,7 @@ import random
 from faker import Faker
 
 
-# In[30]:
-
-
+#improting faker to create fake data
 fake = Faker()
 
 
