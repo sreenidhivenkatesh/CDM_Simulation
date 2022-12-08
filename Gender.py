@@ -48,3 +48,4 @@ worker_df.head(100)
 print(worker_df['gender'].tolist().count('F'))
 print(worker_df)
 
+guygyu
