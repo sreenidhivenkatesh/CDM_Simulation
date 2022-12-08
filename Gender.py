@@ -48,4 +48,27 @@ worker_df.head(100)
 print(worker_df['gender'].tolist().count('F'))
 print(worker_df)
 
-guygyu
+# In[ ]:
+gender = ["M", "F"]
+
+print(random.choices(gender, weights = [49,50], k = 500 ))
+print(worker_df['gender'].tolist().count('F'))
+
+# In[ ]:
+c
+from random import randint
+
+def random_with_N_digits(n):
+    range_start = 10**(n-1)
+    range_end = (10**n)-1
+    return randint(range_start, range_end)
+print(random_with_N_digits(6))
+# data frame with 500 of the interger 6
+sample_ids = pd.DataFrame(np.random.randint(100000, 999999, size=(500, 1)), columns=list('A'))
+print(df)
+
+# In[ ]:
+
+
+
+
